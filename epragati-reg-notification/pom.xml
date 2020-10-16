@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.epragati</groupId>
+	<artifactId>epragati-reg-notification</artifactId>
+	<packaging>jar</packaging>
+
+	<name>Epragati Registration Notifiaction</name>
+	<description>Epragati Registration Notifiaction</description>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<hibernate.version>5.2.11.Final</hibernate.version>
+		<spring-data-jpa.version>2.0.1.RELEASE</spring-data-jpa.version>
+	</properties>
+
+	<parent>
+		<groupId>org.springframework</groupId>
+		<artifactId>epragati-rta-reg</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<dependencies>
+		<!-- <dependency> <groupId>org.epragati</groupId> <artifactId>epragati-reg-entity</artifactId> 
+			<version>1.0.0</version> </dependency> -->
+
+		<dependency>
+			<groupId>org.epragati</groupId>
+			<artifactId>epragati-reg-dao</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+	</dependencies>
+
+</project>
